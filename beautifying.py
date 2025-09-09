@@ -44,6 +44,8 @@ for tag in tags:
     href = tag.get('href', None)
     if href:
         absolute_url = urljoin(url, href)  # Convert relative urls to absolute
+        print(tag)
         print(absolute_url)
+        print('=================================\n')
 
 
